@@ -15,3 +15,4 @@ marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 marker.addTo(map);
 
 map.createPane('labels');
+map.getPane('labels').style.zIndex = 650;

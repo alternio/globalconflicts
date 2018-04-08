@@ -13,14 +13,3 @@ var marker = L.marker([36.83711,-2.464459]);
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 
 marker.addTo(map);
-
-
-
-
-
-map.createPane('labels');
-map.getPane('labels').style.zIndex = 650;
-
-var positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
-        attribution: '©OpenStreetMap, ©CartoDB'
-}).addTo(map);

@@ -8,3 +8,5 @@ L.tileLayer(
 
 // add a marker in the given location
 L.marker([36.83711,-2.464459]).addTo(map);
+
+test

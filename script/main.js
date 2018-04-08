@@ -7,6 +7,8 @@ L.tileLayer(
     {maxZoom: 18}).addTo(map);
 
 // add a marker in the given location
-L.marker([36.83711,-2.464459]).addTo(map);
+var marker = L.marker([36.83711,-2.464459]);
 
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+
+marker.addTo(map);

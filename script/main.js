@@ -29,3 +29,5 @@ var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_l
         attribution: '©OpenStreetMap, ©CartoDB',
         pane: 'labels'
 }).addTo(map);
+
+var geojson = L.geoJson(GeoJsonData, geoJsonOptions).addTo(map);

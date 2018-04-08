@@ -13,3 +13,5 @@ var marker = L.marker([36.83711,-2.464459]);
 marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
 
 marker.addTo(map);
+
+map.createPane('labels');
